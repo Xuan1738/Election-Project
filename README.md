@@ -12,7 +12,7 @@ The significance of this project lies in its ability to make the process of voti
 
 Installation and Instructions to Use:
 
-- Go to terminal located on the bottom left corner of Pycharm and pip install customtkinter and matplotlib to begin using the program
+- Go to a terminal located on the bottom left corner of Pycharm and pip install customtkinter and matplotlib to begin using the program
   
 - User Registration: If you're a new user, click on the "Register" button to create a new account. Enter your desired username, and password, confirm the password, and provide your email address. Click the "Submit" button to register.
   
@@ -25,6 +25,56 @@ Installation and Instructions to Use:
 - Admin Dashboard: If you log in as an administrator, you'll have access to an admin dashboard where you can view statistics, and user information, and perform simulations.
 Exit the Program: Close the program window when you're done by clicking the close button or selecting the exit option from the menu.
 
+Code structure in words
+
+Import Statements:
+    - Import necessary modules and libraries such as customtkinter, messagebox, json, os, random, and matplotlib.pyplot.
+
+2. Class Definitions:
+    a. UserData:
+        - Methods:
+            - __init__(self)
+            - load_from_json(self, filename)
+            - save_to_json(self, filename)
+            - authenticate_user(self, username, password)
+
+    b. Register (inherits from UserData):
+        - Methods:
+            - __init__(self, root)
+            - open_registration(self)
+            - submit_registration(self)
+
+    c. VoteManager:
+        - Methods:
+            - __init__(self)
+            - load_from_json1(self, filename)
+            - save_to_json1(self, filename, data)
+            - cast_vote(self, candidate, username)
+
+3. Function Definitions:
+    - on_login_pressed(): Handles the login button click event.
+    - open_candidate_selection(username): Opens the candidate selection window.
+    - open_admin_dashboard(username): Opens the admin dashboard window.
+    - open_stats_page(): Opens the statistics page.
+    - open_user_info_page(): Opens the user information page.
+    - merge_sort(arr): Implements the merge sort algorithm.
+    - display_vote_counts(): Displays the vote counts.
+    - simulate_gun_murder_event(): Simulates a gun murder event.
+    - simulate_War(): Simulates a war event.
+    - simulate_disease(): Simulates a disease event.
+    - simulate_payment(): Simulates a payment issue event.
+
+4. Main Code:
+    - Instantiates necessary objects such as UserData and VoteManager.
+    - Creates the main GUI window using customtkinter.
+    - Defines GUI elements such as entry fields, labels, buttons, etc.
+    - Binds event handlers to GUI elements.
+    - Runs the main event loop using the `root.mainloop()` method.
+
+5. Exception Handling:
+    - Try exception blocks for error handling.
+  
+   
 
 Discussion and Conclusions
 
