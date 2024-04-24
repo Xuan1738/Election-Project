@@ -8,7 +8,7 @@ Significance of the Project
 
 The significance of this project lies in its ability to make the process of voting simple and easy within various settings, such as schools, small communities, or corporate environments. By digitizing the voting process, the application ensures transparency, accuracy, and security, significantly reducing the likelihood of fraudulent activities and human errors. The novel integration of Customtkinter provides a modern and customizable user interface, enhancing user experience and engagement.
 
-Installation and Instructions to Use 
+
 
 Instructions to Use:
 
