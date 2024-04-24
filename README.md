@@ -10,9 +10,9 @@ The significance of this project lies in its ability to make the process of voti
 
 
 
-Instructions to Use:
+Installation and Instructions to Use:
 
-- Pip install customtkinter and matplotlib to begin using program
+- Go to terminal located on the bottom left corner of Pycharm and pip install customtkinter and matplotlib to begin using program
 - Login: Open the application and use the credentials provided (or register a new user) to log in with a role (User or Administrator).
 - Vote: As a user, select a candidate from the list presented and click 'Vote' to register your choice.
 - Admin Dashboard: As an administrator, view current vote counts(which can see graphically), manage user data, and access simulation features from the admin dashboard.
