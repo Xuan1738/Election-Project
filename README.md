@@ -13,11 +13,16 @@ The significance of this project lies in its ability to make the process of voti
 Installation and Instructions to Use:
 
 - Go to terminal located on the bottom left corner of Pycharm and pip install customtkinter and matplotlib to begin using the program
+  
 - User Registration: If you're a new user, click on the "Register" button to create a new account. Enter your desired username, and password, confirm the password, and provide your email address. Click the "Submit" button to register.
-Login: After registration or if you already have an account, enter your username, and password, and select your role (User or Administrator) in the login interface. Click the "Login" button to log in.
-Candidate Selection: After logging in, you'll see a window displaying candidate options. Click on the candidate you want to vote for, and then click the "Vote" button to cast your vote.
-Simulation: The program allows you to simulate events that may influence voting behavior, such as gun murder, war, disease, or payment issues. Click on the "Simulation" button to access the simulation page and select the event you want to simulate.
-Admin Dashboard: If you log in as an administrator, you'll have access to an admin dashboard where you can view statistics, and user information, and perform simulations.
+  
+- Login: After registration or if you already have an account, enter your username, and password, and select your role (User or Administrator) in the login interface. Click the "Login" button to log in.
+
+- Candidate Selection: After logging in, you'll see a window displaying candidate options. Click on the candidate you want to vote for, and then click the "Vote" button to cast your vote.
+
+- Simulation: The program allows you to simulate events that may influence voting behavior, such as gun murder, war, disease, or payment issues. Click on the "Simulation" button to access the simulation page and select the event you want to simulate.
+
+- Admin Dashboard: If you log in as an administrator, you'll have access to an admin dashboard where you can view statistics, and user information, and perform simulations.
 Exit the Program: Close the program window when you're done by clicking the close button or selecting the exit option from the menu.
 
 
